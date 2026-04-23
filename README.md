@@ -44,8 +44,8 @@ On a synthetic CERT-style dataset of 2,500 records with 8% anomaly ratio:
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/insider-threat-detection-ml.git
-cd insider-threat-detection-ml
+git clone https://github.com/Dhanalakshmi1107/CS_484_Insider_Threat_Detection.git
+cd CS_484_Insider_Threat_Detection
 pip install -r requirements.txt
 ```
 
@@ -129,22 +129,6 @@ Running the pipeline produces the following files in the working directory:
 
 ---
 
-## Project Structure
-
-```
-insider-threat-detection-ml/
-├── insider_threat_detection.py   # Single-file implementation (CLI + Streamlit)
-├── requirements.txt              # Python dependencies
-├── README.md                     # This file
-├── insider_threat_results.csv    # Sample output (scored records)
-├── top_suspicious_users.csv      # Sample output (ranked users)
-├── anomaly_scores_histogram.png  # Sample visualisation
-├── normal_vs_anomaly_scatter.png # Sample visualisation
-└── time_based_anomaly_trend.png  # Sample visualisation
-```
-
----
-
 ## Methodology Summary
 
 1. **Preprocessing** — Mean imputation for numeric fields, mode for categorical, label encoding for `device_used`
@@ -175,7 +159,3 @@ insider-threat-detection-ml/
 ## Author
 
 Dhanalakshmi Sathyanarayanan 
-
-## License
-
-Academic project — for educational and research use.
